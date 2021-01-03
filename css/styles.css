@@ -1,0 +1,68 @@
+:root {
+  --primerry-text-color: #212121;
+  --primerry-bg-color: #ffffff;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primerry-text-color);
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo:focus,
+.logo:hover {
+  color: red;
+}
+
+.logo-part-two {
+  color: var(--primerry-text-color);
+}
+
+/* site nav */
+.site-nav .link {
+  color: var(--primerry-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-mail,
+.contacts-tel {
+  color: var(--title-text-color);
+}
+.contacts-mail:hover {
+  color: var(--accent-color);
+}
+
+/* hero */
+.button {
+  background: var(--accent-color);
+  color: var(--primerry-bg-color);
+}
+.features-title-text {
+  color: var(--title-text-color);
+}
+
+/* Work */
+
+/* our-team */
+
+.team-title-text {
+  color: var(--title-text-color);
+}
