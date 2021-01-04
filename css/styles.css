@@ -8,7 +8,7 @@
 body {
   background-color: #ffffff;
   color: var(--primerry-text-color);
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -40,6 +40,10 @@ a {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .contacts-link {
   color: var(--title-text-color);
 }
@@ -55,6 +59,17 @@ a {
 }
 .features-title-text {
   color: var(--title-text-color);
+}
+
+.filters .button {
+  background: var(--title-text-color);
+  color: #212121;
+}
+
+button:hover,
+button:focus {
+  background: var(--accent-color);
+  color: var(--primerry-bg-color);
 }
 
 /* Work */
