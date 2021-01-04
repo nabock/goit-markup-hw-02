@@ -14,6 +14,9 @@ body {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 
 .logo {
   color: var(--accent-color);
@@ -22,11 +25,6 @@ ul {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-}
-
-.logo:focus,
-.logo:hover {
-  color: red;
 }
 
 .logo-part-two {
@@ -42,11 +40,11 @@ ul {
   color: var(--accent-color);
 }
 
-.contacts-mail,
-.contacts-tel {
+.contacts-link {
   color: var(--title-text-color);
 }
-.contacts-mail:hover {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent-color);
 }
 
