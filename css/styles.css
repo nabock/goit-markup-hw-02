@@ -76,15 +76,16 @@ a {
   color: #000000;
 }
 
-.button {
+.page-hero{
   background: var(--accent-color);
   color: var(--primerry-bg-color);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  /* заменить цвет --primerry-bg-color */
-  color: #000000;
+}
+
+
 }
 /* features  */
 .features-title {
@@ -146,8 +147,10 @@ address {
 
 /* Portfolio */
 
+
 button {
   background: #f5f4fa;
+  color: var(--primerry-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
