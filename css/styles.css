@@ -130,19 +130,24 @@ a {
 }
 
 /* Footer */
+footer{
+  background: #2F303A;
+}
+
+.logo-footer{
+  color: var(--primerry-bg-color);
+}
 
 address {
   font-size: 14px;
   line-height: 1.71;
-  /* заменить цвет --primerry-bg-color */
-  color: #000000;
+  color: var(--primerry-bg-color);
 }
 
 .footer-link {
   font-size: 14px;
   line-height: 1.71;
-  /* заменить цвет --rgba(255, 255, 255, 0.6)*/
-  color: #000000;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Portfolio */
