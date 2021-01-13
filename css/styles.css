@@ -358,6 +358,10 @@ address {
 }
 
 /* Portfolio */
+.list-title-filters {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 .filters-line {
 	text-align: center;
@@ -376,7 +380,7 @@ address {
 	line-height: 1.62;
 	text-decoration: none;
 
-	padding: 22px 6px;
+	padding: 6px 6px;
 	border-radius: 4px;
 	min-width: 78px;
 	min-height: 38px;
