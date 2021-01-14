@@ -181,6 +181,7 @@ a {
 .list-title {
 	display: flex;
 	padding-top: 94px;
+	justify-content: space-between;
 }
 .list-title:last-child .features-title {
 	margin-top: 0px;
@@ -251,10 +252,7 @@ a {
 	padding-bottom: 94px;
 	padding-top: 50px;
 	margin: 0px;
-}
-
-.list-title-team .item + .item:not(:last-child) {
-	margin-right: 30px;
+	justify-content: space-between;
 }
 
 .team-title {
