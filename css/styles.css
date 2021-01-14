@@ -205,7 +205,6 @@ a {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-	padding-bottom: 94px;
 }
 
 /* Work  */
@@ -223,16 +222,15 @@ a {
 
 .list-title {
 	list-style: none;
-	padding: 0px;
+	padding-bottom: 94px;
+	padding-left: 0px;
 	margin: 0px;
 }
 
 .works-title {
-	margin-right: 30px;
+	justify-content: center;
 }
-.works-title .item + .item:not(:last-child) {
-	margin-right: 30px;
-}
+
 /* our-team */
 
 .section-title-team {
