@@ -225,6 +225,9 @@ address {
 }
 
 /* Work  */
+.work {
+	padding-top: 0px;
+}
 
 .section-title {
 	margin-bottom: 50px;
